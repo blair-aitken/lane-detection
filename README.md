@@ -305,7 +305,7 @@ After calibration and homography are set, running the pipeline on your driving v
 
 At the end of processing, the script also prints **summary statistics** in the terminal.
 
-<img alt="summary_statistics" src="https://github.com/user-attachments/assets/7fb99581-e0ca-41ac-b106-6ae2a66fcb75" width="500">
+<img alt="summary_statistics" src="https://github.com/user-attachments/assets/63aeb140-9ba3-480e-bb11-4f0b0823e1a9" width="500">
 
 ---
 
