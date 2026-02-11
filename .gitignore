@@ -1,0 +1,23 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Outputs
+output/
+logs/
+
+# Large raw data (keep examples only)
+data/raw/
+data/tmp/
+
+# IDEs
+.vscode/
+.idea/
