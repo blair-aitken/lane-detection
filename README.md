@@ -1,4 +1,4 @@
-<img width="1230" height="790" alt="chessboard_image" src="https://github.com/user-attachments/assets/6e54977f-d9be-4e55-9d4d-36bf92ab977d" />This repository contains the code and resources supporting the paper:
+This repository contains the code and resources supporting the paper:
 
 (add paper citation here)
 
