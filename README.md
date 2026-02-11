@@ -1,4 +1,4 @@
-This repository contains the code and resources supporting the paper:
+<img width="1230" height="790" alt="chessboard_image" src="https://github.com/user-attachments/assets/6e54977f-d9be-4e55-9d4d-36bf92ab977d" />This repository contains the code and resources supporting the paper:
 
 (add paper citation here)
 
@@ -150,7 +150,7 @@ We use a printed chessboard pattern to estimate intrinsic camera parameters and 
 2. Mount flat on stiff cardboard or foam board (no bending).
 3. Capture 10–15 images with your camera, varying position, angle, and distance.
 
-<img alt="chessboard_image" src="https://github.com/user-attachments/assets/9e24a61f-4dfe-4596-8eb0-7867833aa133" width="500">
+<img alt="chessboard_image" src="https://github.com/user-attachments/assets/83a2da6d-1dc9-4dcf-bdd1-991a540db387" width="500">
 
 4. Save all images into `data/chessboard_images/`
 
@@ -162,7 +162,7 @@ We use calibration boards on the road to generate a homography, allowing the sof
 2. Park your car on a flat road or the same test track you’ll use for driving.
 3. Place both boards flat on the ground beside the measured wheel, with the short edge against the tyre (or other vehicle reference point).
 
- <img alt="homography_calibration" src="https://github.com/user-attachments/assets/59e8fa39-8252-49f7-a640-fa9d6838b276" width="500">
+ <img alt="homography_calibration" src="https://github.com/user-attachments/assets/9cc1c110-10b1-45b9-907c-b0a95fb12942" width="500">
 
 4. Record a 5–10 s video (**.mkv**, **.mp4**, **.avi**, **.mov**) using the final camera mount.
 5. Save the video into `data/videos/`
@@ -267,7 +267,7 @@ When you run the launcher, the following steps will run in sequence:
   - `data/calib/camera_intrinsics.npz` (camera matrix and distortion coefficients).
   - `camera_intrinsics_summary.json` (summary of calibration, RMS error, number of images).
 
-<img alt="calibrate_camera_intrinsics" src="https://github.com/user-attachments/assets/ad3e0625-32e1-4574-b9a4-36b1c70cfb4d" width="500"><br>
+<img alt="calibrate_camera_intrinsics" src="https://github.com/user-attachments/assets/c9a9548f-ee36-4a5c-9cbc-680f9d08b17d" width="500"><br>
 
 #### Step 5: Compute Homography Matrix
 - Run homography generation using the calibration board.
@@ -305,7 +305,7 @@ After calibration and homography are set, running the pipeline on your driving v
 
 At the end of processing, the script also prints **summary statistics** in the terminal.
 
-<img alt="summary_statistics" src="https://github.com/user-attachments/assets/ba3c9468-74c8-4883-a397-ce0f043d550d" width="500">
+<img alt="summary_statistics" src="https://github.com/user-attachments/assets/7fb99581-e0ca-41ac-b106-6ae2a66fcb75" width="500">
 
 ---
 
