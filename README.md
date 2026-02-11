@@ -39,7 +39,7 @@ lane-detection/
 │   ├── calib/                      # Generated calibration files (.npz)
 │   ├── homography/                 # Generates homography files (.json)
 │   ├── videos/                     # Your videos go here
-│   └── examples/                   # Example dataset and output
+│   └── sample_data/                # Sample dataset and output
 │       ├── chessboard_images/      
 │       │   ├── chessboard1.png
 │       │   ├── chessboard2.png
@@ -309,8 +309,8 @@ At the end of processing, the script also prints **summary statistics** in the t
 
 ---
 
-### Example Data
-A small example dataset is included in `data/example/` so you can test the full pipeline without collecting your own data first.
+### Sample Data
+A small example dataset is included in `data/sample_data/` so you can test the full pipeline without collecting your own data first.
 
 ---
 
