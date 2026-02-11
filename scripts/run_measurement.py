@@ -250,7 +250,7 @@ def main():
         print(f"  Min:    {np.min(arr):.2f} cm")
         print(f"  Max:    {np.max(arr):.2f} cm")
         if frames_valid > 1:
-            print(f"  SDLP: {np.std(arr, ddof=1):.2f} cm")
+            print(f"  SDLP:   {np.std(arr, ddof=1):.2f} cm")
     else:
         print("  No valid lane detections.")
 
