@@ -1,6 +1,6 @@
-This repository contains the code and resources supporting the paper:
+This repository contains the source code, calibration tools, and supporting resources accompanying the paper:
 
-Aitken B., Hu X., Arkell T., Downey L.A., Manning B., Amiguet T., Hayes S., & Hayley A.
+**Aitken B., Hu X., Arkell T., Downey L.A., Manning B., Amiguet T., Hayes S., & Hayley A.**
 
 *A validated open-source framework for measuring standard deviation of lateral position during on-road driving.*
 
@@ -368,6 +368,28 @@ This toolkit is designed for controlled experiments and may not perform perfectl
       - **Reinstall from [python.org](https://www.python.org/downloads/windows/)**: Download the official installer and ensure "tcl/tk and IDLE" is selected
       - **Check PATH**: Make sure "Add Python to PATH" was selected during installation
       - **Conda users**: conda install tk if using Anaconda/Miniconda
+
+---
+
+## Validation dataset
+
+The validation dataset used in the accompanying manuscript is available separately on Zenodo:
+
+**DOI:** https://doi.org/10.5281/zenodo.21798890
+
+The dataset includes:
+
+- Raw camera images
+
+- Camera calibration files
+
+- Homography parameters
+
+- Binary lane masks
+
+- Debug images with detected lane boundaries and lateral position estimates
+
+- Frame-level measurement data
 
 ---
 
