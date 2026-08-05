@@ -1,6 +1,8 @@
 This repository contains the code and resources supporting the paper:
 
-(add paper citation here)
+Aitken B., Hu X., Arkell T., Downey L.A., Manning B., Amiguet T., Hayes S., & Hayley A.
+
+*A validated open-source framework for measuring standard deviation of lateral position during on-road driving.*
 
 ---
 
